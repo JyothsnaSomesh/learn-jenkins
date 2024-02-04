@@ -1,9 +1,9 @@
 pipeline {
     agent {
-    node {
-        label 'Agent-1'
+        node {
+            label 'Agent-1'
         }
-}
+    }
 environment { 
         GREETING = 'Hello Jenkins'
     }
@@ -25,9 +25,9 @@ environment {
                     echo "I wrote shell-script'
                     env
                 """
-                }
-             }
+            }
         }
+    }
     //Post Build
     post { 
         always { 
