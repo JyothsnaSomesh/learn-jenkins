@@ -65,7 +65,7 @@ pipeline {
                 echo 'I will always say Hello again!'
             }
             failure { 
-                echo 'say its a failure'
+                echo 'say it is a failure'
             }
             success { 
                 echo 'It is a Success'
