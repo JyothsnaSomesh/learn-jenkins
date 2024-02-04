@@ -27,8 +27,7 @@ environment {
                     echo "I wrote shell-script'
                     env
                 """
-
-            }
+                }
                 
             }
         }
