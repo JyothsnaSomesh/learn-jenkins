@@ -28,11 +28,9 @@ environment {
                     env
                 """
                 }
-                
-            }
+             }
         }
-    }
-//Post Build
+    //Post Build
     post { 
         always { 
             echo 'I will always say Hello again!'
@@ -45,6 +43,5 @@ environment {
         }
     }
 }
-
 
     
