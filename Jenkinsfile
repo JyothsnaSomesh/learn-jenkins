@@ -58,6 +58,7 @@ pipeline {
                  """
             }
         }
+    }
     //Post Build
     post { 
             always { 
@@ -71,5 +72,5 @@ pipeline {
             }
         }
     }
-}
+
     
