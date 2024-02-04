@@ -20,8 +20,8 @@ environment {
             }
             steps {
                 sh """
-                echo "I wrote shell-script'
-                env
+                    echo "I wrote shell-script'
+                    env
                 """
             }
         }
