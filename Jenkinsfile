@@ -43,7 +43,6 @@ pipeline {
                 """
             }
         }
-    }
         stage('Check Params') {
             steps {
                  sh """
@@ -72,4 +71,5 @@ pipeline {
             }
         }
     }
+}
     
