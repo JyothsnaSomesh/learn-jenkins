@@ -21,7 +21,7 @@ environment {
             steps {
                 sh """
                 echo "I wrote shell-script'
-                echo "$GREETING"
+                env
                 """
             }
         }
