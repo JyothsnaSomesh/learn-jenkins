@@ -68,7 +68,7 @@ pipeline {
                 echo 'say it is a failure'
             }
             success { 
-                echo 'It is a Success'
+                echo 'It is a Sucess Success'
             }
         }
     }
