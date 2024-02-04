@@ -28,7 +28,7 @@ pipeline {
         failure { 
             echo 'say its a failure'
         }
-        Success { 
+        success { 
             echo 'It is a Success'
         }
     }
