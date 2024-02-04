@@ -14,12 +14,12 @@ environment {
                 echo 'Building..'
             }
         }
-        stage('test') {
+        stage('Test') {
             steps {
                  echo 'Testing..'
             }
         }
-        stage('deploy') {
+        stage('Deploy') {
             steps {
                 sh """
                     echo "I wrote shell-script'
