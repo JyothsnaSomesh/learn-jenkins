@@ -9,20 +9,27 @@ environment {
     }
 //Build
     stages {
-        stage('Example Build') {
+        stage('build') {
             steps {
-                echo 'Hello World'
+                echo 'Building..'
             }
+            
         }
-        stage('Example Deploy') {
-            when {
-                branch 'production'
+        stage('test') {
+            steps {
+                 echo 'Testing..'
             }
+           
+        }
+        stage('deploy') {
             steps {
                 sh """
                     echo "I wrote shell-script'
                     env
                 """
+
+            }
+                
             }
         }
     }
