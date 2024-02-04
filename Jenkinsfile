@@ -57,19 +57,19 @@ pipeline {
                     echo "Password: ${params.PASSWORD}"
                  """
             }
-    }
+        }
     //Post Build
     post { 
-        always { 
-            echo 'I will always say Hello again!'
-        }
-        failure { 
-            echo 'say its a failure'
-        }
-        success { 
-            echo 'It is a Success'
+            always { 
+                echo 'I will always say Hello again!'
+            }
+            failure { 
+                echo 'say its a failure'
+            }
+            success { 
+                echo 'It is a Success'
+            }
         }
     }
-}
-
+} 
     
