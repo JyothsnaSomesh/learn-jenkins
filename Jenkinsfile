@@ -9,17 +9,15 @@ environment {
     }
 //Build
     stages {
-        stage('build') {
+        stage('Build') {
             steps {
                 echo 'Building..'
             }
-            
         }
         stage('test') {
             steps {
                  echo 'Testing..'
             }
-           
         }
         stage('deploy') {
             steps {
